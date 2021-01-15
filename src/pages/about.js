@@ -1,8 +1,8 @@
 import React from 'react';
-import { Layout } from '../components/layout.js';
-import { SEO } from '../components/seo.js';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
-const About = () => {
+const About = () => (
     <Layout>
         <SEO title='dru heller bio page'/>
         <div>
@@ -10,5 +10,5 @@ const About = () => {
             <p>This is my bio yo.</p>
         </div>
     </Layout>
-}
+)
 export default About;
