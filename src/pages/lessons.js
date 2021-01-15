@@ -1,8 +1,8 @@
 import React from 'react';
-import { Layout } from '../components/layout.js';
-import { SEO } from '../components/seo.js';
+import Layout from '../components/layout.js';
+import SEO from '../components/seo.js';
 
-const Lessons = () => {
+const Lessons = () => (
     <Layout>
         <SEO title='dru heller lessons page'/>
         <div>
@@ -10,6 +10,6 @@ const Lessons = () => {
             <p>Here is information on lessons with Dru.</p>
         </div>
     </Layout>
-}
+)
 
 export default Lessons;
