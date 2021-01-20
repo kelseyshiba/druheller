@@ -53,6 +53,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #333;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -554,8 +556,9 @@ acronym {
   font-size: 100px;
   color: #ffffff;
   position: absolute;
-  top: 63%;
+  top: 73%;
   bottom: 0%;
+  text-shadow:hsla(0, 0%, 0%, 0.8)
 }
 
 #bannerText {
@@ -569,6 +572,10 @@ acronym {
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+
+#menu a:hover {
+  background-color: #376CF5;
 }
 
 thead {
