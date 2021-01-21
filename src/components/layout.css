@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: roboto mono, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -549,14 +549,14 @@ acronym {
 
 #banner img {
   width: 18rem;
-  padding: 5px;
+  padding: 0px 5px;
 }
 
 #bannerName {
   font-size: 100px;
   color: #ffffff;
   position: absolute;
-  top: 73%;
+  top: 58%;
   bottom: 0%;
   text-shadow:hsla(0, 0%, 0%, 0.8)
 }
@@ -576,6 +576,19 @@ acronym {
 
 #menu a:hover {
   background-color: #376CF5;
+}
+
+#biophoto {
+  padding: 15% 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row {
+  padding-top: 10px;
 }
 
 thead {
