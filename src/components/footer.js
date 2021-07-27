@@ -1,14 +1,16 @@
 import React from 'react'
 
+const copyrightDate = new Date().getFullYear();
+
 const Footer = () => (
     <div style={{ 
         background: '#f4f4f4',
         justifyContent: 'space-evenly',
         paddingTop: '10px',
     }}>
-        <p>© 2021 By 
+        <div align="center">© {copyrightDate} by 
             <a href='https://shibadeveloper.com'> Shiba Developer </a>
-        </p>
+        </div>
     </div>
 )
 
