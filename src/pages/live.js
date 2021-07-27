@@ -5,7 +5,7 @@ import SEO from '../components/seo.js';
 const Live = () => (
     <Layout>
         <SEO title='Dru Heller Live page'/>
-        <div align="center">
+        <div>
             <h1>Live!</h1>
             <p>Gig Calendar Information</p>
             {/* This is a placeholder of a google calendar. We need a Google calendar from Dru. */}

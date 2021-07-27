@@ -6,7 +6,7 @@ import YoutubeEmbed from "../components/youtubeEmbed"
 const Listen = () => (
   <Layout>
     <SEO title="Dru Heller Listen page" />
-    <div align="center">
+    <div>
       <h1>Listen</h1>
 
       <div className="App">
