@@ -3,11 +3,11 @@ import Layout from "../components/layout.js"
 import SEO from "../components/seo.js"
 import YoutubeEmbed from "../components/youtubeEmbed"
 
-const Listen = () => (
+const Media = () => (
   <Layout>
-    <SEO title="Dru Heller Listen page" />
+    <SEO title="Dru Heller Media page" />
     <div>
-      <h1>Listen</h1>
+      <h1>Media</h1>
 
       <div className="App">
         <YoutubeEmbed embedId="Z2jzvpaYNzI" />
@@ -21,4 +21,4 @@ const Listen = () => (
   </Layout>
 )
 
-export default Listen
+export default Media

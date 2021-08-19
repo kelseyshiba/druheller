@@ -14,7 +14,7 @@ const Menu = () => (
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/about'>About</Link></li> 
             <li><Link to='/live'>Live</Link></li> 
-            <li><Link to='/listen'>Listen</Link></li> 
+            <li><Link to='/media'>Media</Link></li> 
             <li><Link to='/lessons'>Lessons</Link></li> 
             <li><Link to='/contact'>Contact</Link></li> 
         </ul>        
