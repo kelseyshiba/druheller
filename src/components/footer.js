@@ -3,8 +3,7 @@ import React from 'react'
 const copyrightDate = new Date().getFullYear();
 
 const Footer = () => (
-    <div style={{ 
-        background: '#f4f4f4',
+    <div className="footer" style={{ 
         justifyContent: 'space-evenly',
         paddingTop: '10px',
     }}>

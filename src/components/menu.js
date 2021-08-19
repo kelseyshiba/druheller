@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Menu = () => (
-    <div style={{
-        background: '#f4f4f4',
+    <div className="menu" style={{
+        // background: '#f4f4f4',
         paddingTop: '20px'
     }} id='menu'>
         <ul style={{

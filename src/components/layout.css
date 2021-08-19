@@ -18,6 +18,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  background-color: #78a1bb	;
   }
 article,
 aside,
@@ -576,7 +577,7 @@ acronym {
 }
 
 #menu a:hover {
-  background-color: #376CF5;
+  background-color: #bfbfbf;
   
 }
 
@@ -658,4 +659,12 @@ pre tt:after {
 
 .site-content {
   flex-grow: 1;
+}
+
+.menu {
+  background-color: #78a1bb;
+}
+
+.footer {
+  background-color: #78a1bb;
 }
