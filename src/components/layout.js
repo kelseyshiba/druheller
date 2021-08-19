@@ -9,9 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Footer from './footer'
+import Footer from "./footer"
 import "./layout.css"
-import Menu from './menu'
+import Menu from "./menu"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -31,9 +31,13 @@ const Layout = ({ children }) => {
           maxWidth: 960,
         }}
       >
-      <Menu />
-        <main>{children}</main>
-      <Footer />
+        <Menu />
+
+        <div className="site">
+          {/* <main>{children}</main> */}
+          <div className="site-content">{children}</div>
+          <Footer />
+        </div>
       </div>
     </>
   )

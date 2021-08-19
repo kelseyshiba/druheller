@@ -11,7 +11,7 @@ const Banner = () => (
             <img src={heller2} alt='heller 2'/>
             <img src={heller3} alt='heller 3'/>
         </div>
-        <h1 id='bannerName'>DRU HELLER</h1>
+        {/* <h1 id='bannerName'>DRU HELLER</h1> */}
         <h3 id='bannerText'>Drummer • Artist • Educator • Clinician</h3>
         <div id='signature'>
             <img src={hellersign} alt='heller signature'/>

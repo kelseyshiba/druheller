@@ -7,7 +7,8 @@ const Contact = () => (
         <SEO title='Dru Heller Contact page'/>
         <div>
             <h1>Contact Dru</h1>
-            <p>druheller@gmail.com</p>
+            {/* need to create a mail form, but this will work for the moment. */}
+            <a href="mailto:druheller@gmail.com">druheller@gmail.com</a>
         </div>
     </Layout>
 )
