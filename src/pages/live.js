@@ -16,7 +16,6 @@ const Live = () => (
         <div>
             This should be the Gatsby Calendar Plugin
 
-
         </div>
     </Layout>
 )
