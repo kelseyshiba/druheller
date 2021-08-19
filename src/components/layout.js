@@ -32,6 +32,7 @@ const Layout = ({ children }) => {
         }}
       >
         <Menu />
+
         <div className="site">
           {/* <main>{children}</main> */}
           <div className="site-content">{children}</div>

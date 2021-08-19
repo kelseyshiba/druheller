@@ -577,7 +577,7 @@ acronym {
 }
 
 #menu a:hover {
-  background-color: #bfbfbf;
+  color: white;
   
 }
 
@@ -663,8 +663,15 @@ pre tt:after {
 
 .menu {
   background-color: #78a1bb;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .footer {
   background-color: #78a1bb;
 }
+
+.mobile-nav {
+}
+

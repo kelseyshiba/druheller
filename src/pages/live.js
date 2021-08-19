@@ -7,7 +7,7 @@ const Live = () => (
     <Layout>
         <SEO title='Dru Heller Live page'/>
         <div>
-            <h1>Live!</h1>
+            <h1>Live</h1>
             <p>Gig Calendar Information</p>
             {/* This is a placeholder of a google calendar. We need a Google calendar from Dru. */}
             <iframe src="https://calendar.google.com/calendar/embed?src=okdq5ar7qo7tauol6miki94rhs%40group.calendar.google.com&ctz=America%2FDenver" width="800" height="600" frameborder="0" scrolling="no"></iframe>
